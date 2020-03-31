@@ -24,7 +24,7 @@ body {
     padding-bottom: 50px;
     background: url(../img/stroke_02.png);
     background-repeat: repeat-x;
-    background-position: 0px 50px;
+    background-position: 0px 1px;
 }
 .page_title h3 {
     text-transform: uppercase;
@@ -149,14 +149,16 @@ body {
 }
 #index_page .main-button_block a.btn {
       width: 180px !important;
-    border: #fff solid 1px !important;
+    border: #438966 solid 1px !important;
     color: #fff !important;
+    background: #438966 !important;
 }
 
 #index_page .main-button_block a.btn:hover {
    
-    border: #28a745 solid 1px !important;
+    border: #086A39 solid 1px !important;
     color: #fff;
+    background:#086A39 !important;
 }
 
 /*====================
