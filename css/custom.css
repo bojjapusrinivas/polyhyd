@@ -39,11 +39,24 @@ body {
 }
 
 .bg_light_gray{
-    background-color:#f3f3f3
+    background-color:#f3f3f3;
+}
+.bg_light_green{
+    background-color:#E1EEE7;
 }
 
+.f_white,
+.f_whtie:hover{
+    color:#fff !important;
+}
 
-
+.f_green{
+    color:#006633
+}
+.no_underline,
+.no_underline:hover{
+    text-decoration: none !important;
+}
 
 /*=======MOBILE NAV BAR=======*/
 
@@ -321,6 +334,94 @@ font-size: 12px;
     height:20px;
     margin: 5px;
 }
+
+/*=============================
+        INNER PAGE
+=============================*/
+
+
+/*======HERO PAGE=======*/
+
+ #inner_page .heropage {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/side_nav_bg.png);
+    background-size: cover;
+    z-index:99;
+    position: relative;
+    background-color: rgba(2, 95, 45, 0.9);
+}
+
+ #inner_page .heropage:before
+            {
+    content: "";
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    top: 34px;
+    right: 0px;
+    z-index: 999;
+    background-image: url(../img/stroke_02.png);
+    background-repeat: repeat-x;
+}
+#index_page .heropage:before {
+    background: rgba(51, 61, 96, 0.9);
+}
+
+.alumni_form{
+    height: 440px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+ 
+
+/*== LOGO SECTION==*/
+
+ #inner_page  .heropage .container {
+    z-index: 999
+}
+ #inner_page .telanga_log {
+    width:100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*== MAIN TITLE==*/
+
+ #inner_page .main-text,
+ #inner_page .main-button_block {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+ #inner_page .main-text h2 {
+    font-size:26px;
+}
+ #inner_page .main-text h1 {
+    font-size: 31px;
+}
+#inner_page .form_title{
+    background:#C69A47;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*====================
     MEDIA QURIES
