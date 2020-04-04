@@ -19,6 +19,7 @@ body {
     width: 100%;
     position: relative;
 }
+
 .pages {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -26,6 +27,7 @@ body {
     background-repeat: repeat-x;
     background-position: 0px 1px;
 }
+
 .page_title h3 {
     text-transform: uppercase;
     color: #D1B07C;
@@ -34,50 +36,61 @@ body {
     margin-top: 20px;
     line-height: normal;
 }
+
 .img_block img {
     border: #fff solid 5px;
 }
 
-.bg_light_gray{
-    background-color:#f3f3f3;
+.bg_light_gray {
+    background-color: #f3f3f3;
 }
-.bg_light_green{
-    background-color:#E1EEE7;
+
+.bg_light_green {
+    background-color: #E1EEE7;
+}
+
+.bg_white {
+    background: #fff;
 }
 
 .f_white,
-.f_whtie:hover{
-    color:#fff !important;
+.f_whtie:hover {
+    color: #fff !important;
 }
 
-.f_green{
-    color:#006633
+.f_green {
+    color: #006633
 }
+
 .no_underline,
-.no_underline:hover{
+.no_underline:hover {
     text-decoration: none !important;
+}
+
+.hide {
+    display: none
 }
 
 /*=======MOBILE NAV BAR=======*/
 
-#index_page nav.mobile_nav{
-    display:none !important;
+#index_page nav.mobile_nav {
+    display: none !important;
 }
 
 
 #index_page nav.bg-light {
-    background-color:transparent !important;
+    background-color: transparent !important;
 }
 
-#index_page .navbar-toggler{
-    background:#fff;
+#index_page .navbar-toggler {
+    background: #fff;
 }
 
-#index_page .navbar-toggler-icon{
-    color:#fff;
+#index_page .navbar-toggler-icon {
+    color: #fff;
 }
 
-#index_page .navbar-collapse{
+#index_page .navbar-collapse {
     background: #358C5E;
     padding: 20px;
     position: absolute;
@@ -89,17 +102,19 @@ body {
 }
 
 
-#index_page .nav-link{
+#index_page .nav-link {
     color: #fff;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
-#index_page .nav-item{
+
+#index_page .nav-item {
     padding: 3px 10px;
 }
+
 #index_page .nav-item.active,
-#index_page .nav-item:hover{
-    background:#0A6D3B
+#index_page .nav-item:hover {
+    background: #0A6D3B
 }
 
 
@@ -115,6 +130,7 @@ body {
     z-index: 99;
     position: relative;
 }
+
 #index_page .heropage:before,
 #index_page .heropage:after {
     content: "";
@@ -125,9 +141,11 @@ body {
     left: 0px;
     z-index: -1;
 }
+
 #index_page .heropage:before {
     background: rgba(51, 61, 96, 0.9);
 }
+
 #index_page .heropage:after {
     background: url(../img/stroke_01.png);
     background-repeat: repeat;
@@ -138,6 +156,7 @@ body {
 #index_page .heropage .container {
     z-index: 999
 }
+
 #index_page .telanga_log {
     width: 150px;
     height: auto;
@@ -154,24 +173,27 @@ body {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
+
 #index_page .main-text h2 {
     font-size: 40px;
 }
+
 #index_page .main-text h1 {
     font-size: 46.5px;
 }
+
 #index_page .main-button_block a.btn {
-      width: 180px !important;
+    width: 195px !important;
     border: #438966 solid 1px !important;
     color: #fff !important;
     background: #438966 !important;
 }
 
 #index_page .main-button_block a.btn:hover {
-   
+
     border: #086A39 solid 1px !important;
     color: #fff;
-    background:#086A39 !important;
+    background: #086A39 !important;
 }
 
 /*====================
@@ -188,34 +210,40 @@ body {
     top: 0px;
     z-index: 9;
 }
+
 #index_page .aside_logo_block img {
     width: 100px;
     height: auto;
     margin: 0 auto;
     margin-bottom: 15px
 }
+
 #index_page .aside_title {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 10px;
     border-bottom: #fff solid 1px;
 }
+
 #index_page .aside_title h4 {
     font-size: 18px;
     font-weight: bold
 }
+
 #index_page .aside_title h3 {
     font-size: 21px;
     font-weight: bold
 }
+
 #index_page .aside_nav ul {
     width: 100%;
     margin: 0px;
     padding: 0px;
     list-style: none;
-    color:#fff;
+    color: #fff;
     font-weight: 200
 }
+
 #index_page .aside_nav ul li {
     margin-bottom: 9px;
     transition: all 0.2s linear;
@@ -223,10 +251,12 @@ body {
     -moz-transition: all 0.2s linear;
     padding: 3px 8px;
 }
+
 #index_page .aside_nav ul li:hover,
-#index_page .aside_nav ul li.active{
+#index_page .aside_nav ul li.active {
     background: #086A39;
 }
+
 #index_page .aside_nav ul li a {
     color: #fff;
     font-size: 18px;
@@ -248,6 +278,7 @@ body {
     font-size: 12px;
     z-index: 9999;
 }
+
 .footer_section a {
     color: #fff;
 }
@@ -262,22 +293,77 @@ body {
 }
 
 /*====================
-    HOME PAGE
+  team PAGE
 =====================*/
 
 #team ul {
     list-style: none;
 }
+
 #team ul li {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
+
+#team .vertical-tabs {
+    color: #000
+}
+
+#team .vertical-tabs .nav-tabs .nav-link {
+    border-radius: 0;
+    color: #686868;
+    font-size: 14px;
+    font-weight: 500 !important;
+    padding: 5px !important;
+    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+}
+
+
+#team .vertical-tabs .nav-tabs .nav-link.active {
+    background-color: #d1b07c !important;
+    color: #fff;
+    padding: 5px !important
+}
+
+#team .vertical-tabs .tab-content > .active {
+    display: block;
+}
+
+#team .vertical-tabs .nav.nav-tabs {
+    border-bottom: 0;
+    border-right: rgba(0, 0, 0, 0.2) solid 1px;
+    border-bottom: rgba(0, 0, 0, 0.2) solid 0px;
+    display: block;
+    float: left;
+    margin-right: 9px;
+    padding-right: -1px;
+    width: 270px;
+}
+
+#team .nav-item {
+    width: 100%;
+    line-height: normal;
+    padding: 0px !important;
+}
+
+#team .nav-item.active,
+#team .nav-item:hover {
+    background: #4B9368;
+
+}
+
+#team .nav-item:hover a {
+    color: #fff !important;
+}
+
+
+
 /*====================
    SUCCESS STORIES PAGE
 =====================*/
 
-#stories .img_placeholder{
+#stories .img_placeholder {
     position: relative;
     z-index: 99;
     width: 105px;
@@ -285,8 +371,8 @@ body {
     margin: 0 auto;
 }
 
-#stories .img_placeholder:before{
-   content: '';
+#stories .img_placeholder:before {
+    content: '';
     width: 105px;
     height: 107px;
     position: absolute;
@@ -299,39 +385,39 @@ body {
     -moz-transition: all 0.2s linear;
 }
 
-#stories .img_placeholder:hover:before{
+#stories .img_placeholder:hover:before {
     background: #358C5E;
     transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
-  
+
 }
 
-#stories .placeholder_text p{
-font-size: 12px;
-    color:#D1B07C;
+#stories .placeholder_text p {
+    font-size: 12px;
+    color: #D1B07C;
 }
 
 
 /*====================
    RESOURCE PAGE
 =====================*/
-#resources a{
-    color:#212529;
+#resources a {
+    color: #212529;
     transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
 }
 
-#resources a:hover{
-    color:#358C5E;
+#resources a:hover {
+    color: #358C5E;
     transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
     text-decoration: none;
 }
 
-#resources a i{
-    width:20px;
-    height:20px;
+#resources a i {
+    width: 20px;
+    height: 20px;
     margin: 5px;
 }
 
@@ -342,20 +428,19 @@ font-size: 12px;
 
 /*======HERO PAGE=======*/
 
- #inner_page .heropage {
+#inner_page .heropage {
     margin: 0px;
     padding: 0px;
     width: 100%;
     height: 100vh;
     background-image: url(../img/side_nav_bg.png);
     background-size: cover;
-    z-index:99;
+    z-index: 99;
     position: relative;
     background-color: rgba(2, 95, 45, 0.9);
 }
 
- #inner_page .heropage:before
-            {
+#inner_page .heropage:before {
     content: "";
     width: 80%;
     height: 30%;
@@ -366,49 +451,113 @@ font-size: 12px;
     background-image: url(../img/stroke_02.png);
     background-repeat: repeat-x;
 }
+
 #index_page .heropage:before {
     background: rgba(51, 61, 96, 0.9);
 }
 
-.alumni_form{
+.alumni_form {
     height: 440px;
     overflow: hidden;
     overflow-y: scroll;
-    
+
 }
- 
+
 
 /*== LOGO SECTION==*/
 
- #inner_page  .heropage .container {
+#inner_page .heropage .container {
     z-index: 999
 }
- #inner_page .telanga_log {
-    width:100px;
+
+#inner_page .telanga_log {
+    width: 100px;
     height: auto;
     margin: 0 auto;
 }
 
 /*== MAIN TITLE==*/
 
- #inner_page .main-text,
- #inner_page .main-button_block {
+#inner_page .main-text,
+#inner_page .main-button_block {
     display: block;
     color: #fff;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
- #inner_page .main-text h2 {
-    font-size:26px;
+
+#inner_page .main-text h2 {
+    font-size: 26px;
 }
- #inner_page .main-text h1 {
+
+#inner_page .main-text h1 {
     font-size: 31px;
 }
-#inner_page .form_title{
-    background:#C69A47;
-    color:#fff;
+
+#inner_page .form_title {
+    background: #C69A47;
+    color: #fff;
     font-weight: bold;
+}
+
+
+/*=========================
+    inner page scroll
+==========================*/
+
+
+
+#inner_page ::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+#inner_page ::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+#inner_page ::-webkit-scrollbar-thumb {
+  background: #4fb582;
+  border: 0px none #ffffff;
+  border-radius: 36px;
+}
+#inner_page ::-webkit-scrollbar-thumb:hover {
+  background: #317352;
+}
+#inner_page ::-webkit-scrollbar-thumb:active {
+  background: #58b888;
+}
+#inner_page ::-webkit-scrollbar-track {
+  background: #e5c07c;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+#inner_page ::-webkit-scrollbar-track:hover {
+  background: #e5c07c;
+}
+#inner_page ::-webkit-scrollbar-track:active {
+  background: #e5c07c;
+}
+#inner_page ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+/*========================
+    STAFF REGISTRATION
+=========================*/
+#inner_page .staff .form-group label {
+    font-size: 13px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#inner_page .staff .form-group input,
+#inner_page .staff .form-group select {
+    height: 30px;
+    border-radius: 0px;
+    font-size: 12px;
+    font-style: italic;
 }
 
 
@@ -431,6 +580,7 @@ font-size: 12px;
 /*--- DESKTOP SCREEN UPTO 1200 ----*/
 
 @media (max-width: 1200px) {
+
     /*====================
     HOME PAGE
 =====================*/
@@ -438,89 +588,148 @@ font-size: 12px;
         margin-left: 10px !important;
         margin-top: 0px !important;
     }
+
+    #team .vertical-tabs .nav.nav-tabs {
+        width: 180px;
+    }
+
+
+    #team .vertical-tabs .nav-tabs .nav-link {
+        font-size: 13px;
+
+    }
 }
 
 /*--- TAB SCREEN UPTO 992x ----*/
 
 @media (max-width: 992px) {
-    
+
     /*=====MOBILE NAV=======*/
-    #index_page nav.mobile_nav{
-    display:block !important;
+    #index_page nav.mobile_nav {
+        display: block !important;
     }
-    
+
     /*=====Snipts=======*/
     .page_title h3 {
-    font-size: 38px;
-  
-}
-    
-    
+        font-size: 38px;
+
+    }
+
+
     /*-- HERO PAGE -- */
     #index_page .main-text h2 {
         font-size: 30px;
     }
+
     #index_page .main-text h1 {
         font-size: 35.5px;
     }
+
     /* SIDE NAV */
     #index_page .aside_section {
         display: none;
+    }
+
+    /*--term---*/
+    #team .vertical-tabs .nav.nav-tabs {
+        width: 270px;
+    }
+
+
+    #team .vertical-tabs .nav-tabs .nav-link {
+        font-size: 13px;
+
     }
 }
 
 /*--- MOBLE PORTABLE SCREEN UPTO 768----*/
 
 @media (max-width: 768px) {
+
     /* FULL PAGE PAGE HEIGHT */
     .full_height {
         height: auto !important;
         width: 100%;
         position: relative;
     }
+
     /* HERO PAGE */
     #index_page .telanga_log {
         width: 110px;
     }
+
     #index_page .main-text h2 {
         font-size: 26px;
     }
+
     #index_page .main-text h1 {
         font-size: 30.5px;
     }
+
     #index_page .main-button_block a.btn {
         width: 148px !important;
         font-size: 12px;
     }
+
     /* FOOTER */
     .footer_section {
         position: relative;
         font-size: 11px;
     }
+
     /* PAGE */
     .pages {
         padding-top: 15px;
         padding-bottom: 15px;
         background-position: 0px 0;
     }
+
+    /*--term---*/
+
+    #team .vertical-tabs .nav.nav-tabs {
+        width: 180px;
+    }
+
+
+    #team .vertical-tabs .nav-tabs .nav-link {
+        font-size: 13px;
+
+    }
 }
 
 /*--- MOBILE SCREEN UPTO 576 ----*/
 
 @media (max-width: 576px) {
+
     /*-- HERO PAGE ---*/
     #index_page .telanga_log {
         width: 90px;
     }
+
     #index_page .main-text h2 {
         font-size: 20px;
     }
+
     #index_page .main-text h1 {
         font-size: 23.5px;
     }
+
     #index_page .main-button_block a.btn {
         width: 167px !important;
         font-size: 13px;
+    }
+
+    /*--- TERM PAGE ---*/
+
+    #team .vertical-tabs .nav.nav-tabs {
+        border-bottom: 0;
+        border-right: rgba(0, 0, 0, 0.2) solid 0px;
+        border-bottom: rgba(0, 0, 0, 0.2) solid 2px;
+        display: block;
+        float: none;
+        margin-right: 9px;
+        padding-right: -1px;
+        width: 100%;
     }
 }
 
