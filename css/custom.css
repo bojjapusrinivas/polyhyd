@@ -18,6 +18,7 @@ body {
     height: 100vh !important;
     width: 100%;
     position: relative;
+    overflow-x: hidden;
 }
 
 .pages {
@@ -26,6 +27,11 @@ body {
     background: url(../img/stroke_02.png);
     background-repeat: repeat-x;
     background-position: 0px 1px;
+}
+
+
+.page_title{
+    margin-top: -40px;
 }
 
 .page_title h3 {
@@ -70,6 +76,17 @@ body {
 .hide {
     display: none
 }
+
+.un_list{
+    list-style: none;
+}
+
+.under_line{
+    border-bottom:#D1B07C solid 2px;
+    padding-bottom:10px
+}
+
+
 
 /*=======MOBILE NAV BAR=======*/
 
@@ -151,6 +168,10 @@ body {
     background-repeat: repeat;
 }
 
+.heropage_mobile{
+    display: none;
+}
+
 /*== LOGO SECTION==*/
 
 #index_page .heropage .container {
@@ -204,7 +225,7 @@ body {
     position: fixed;
     background-color: #358C5E;
     background-image: url(../img/side_nav_bg.png);
-    width: 35%;
+    width: 30%;
     height: 100vh;
     left: 0px;
     top: 0px;
@@ -255,14 +276,19 @@ body {
 #index_page .aside_nav ul li:hover,
 #index_page .aside_nav ul li.active {
     background: #086A39;
+    border-radius: 5px;
+}
+
+#index_page .aside_nav ul li{
+    margin-bottom: 2px;
 }
 
 #index_page .aside_nav ul li a {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif !important;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 /*====================
@@ -306,57 +332,27 @@ body {
 }
 
 
-#team .vertical-tabs {
-    color: #000
-}
-
-#team .vertical-tabs .nav-tabs .nav-link {
-    border-radius: 0;
-    color: #686868;
-    font-size: 14px;
-    font-weight: 500 !important;
-    padding: 5px !important;
-    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+#team .team_button{
+    font-size:15px;
+    font-weight: bold;
+    border:rgba(0,0,0,0.2) solid 1px;
+    border-left:#357F56 solid 8px !important;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
 }
 
 
-#team .vertical-tabs .nav-tabs .nav-link.active {
-    background-color: #d1b07c !important;
-    color: #fff;
-    padding: 5px !important
+#team .team_button:hover{
+    font-size:15px;
+    font-weight: bold;
+    border:rgba(0,0,0,0.2) solid 1px;
+    border-left:#D1B07C solid 5px !important;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
 }
-
-#team .vertical-tabs .tab-content > .active {
-    display: block;
-}
-
-#team .vertical-tabs .nav.nav-tabs {
-    border-bottom: 0;
-    border-right: rgba(0, 0, 0, 0.2) solid 1px;
-    border-bottom: rgba(0, 0, 0, 0.2) solid 0px;
-    display: block;
-    float: left;
-    margin-right: 9px;
-    padding-right: -1px;
-    width: 270px;
-}
-
-#team .nav-item {
-    width: 100%;
-    line-height: normal;
-    padding: 0px !important;
-}
-
-#team .nav-item.active,
-#team .nav-item:hover {
-    background: #4B9368;
-
-}
-
-#team .nav-item:hover a {
-    color: #fff !important;
-}
-
 
 
 /*====================
@@ -607,6 +603,7 @@ body {
     /*=====MOBILE NAV=======*/
     #index_page nav.mobile_nav {
         display: block !important;
+        background:#384160 !important
     }
 
     /*=====Snipts=======*/
@@ -624,12 +621,22 @@ body {
     #index_page .main-text h1 {
         font-size: 35.5px;
     }
+    #index_page .heropage{
+          margin-top: 39px !important;
+    }
+
+    .heropage_mobile{
+    display: block;
+     margin-top: 39px !important;
+    }
+
 
     /* SIDE NAV */
     #index_page .aside_section {
         display: none;
     }
-
+    
+ 
     /*--term---*/
     #team .vertical-tabs .nav.nav-tabs {
         width: 270px;
@@ -667,7 +674,7 @@ body {
     }
 
     #index_page .main-button_block a.btn {
-        width: 148px !important;
+        width: 150px !important;
         font-size: 12px;
     }
 
@@ -715,8 +722,8 @@ body {
     }
 
     #index_page .main-button_block a.btn {
-        width: 167px !important;
-        font-size: 13px;
+        width: 155px !important;
+        font-size: 12.5px;
     }
 
     /*--- TERM PAGE ---*/
