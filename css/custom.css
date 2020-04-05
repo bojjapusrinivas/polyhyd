@@ -88,6 +88,7 @@ body {
 
 
 
+
 /*=======MOBILE NAV BAR=======*/
 
 #index_page nav.mobile_nav {
@@ -215,6 +216,16 @@ body {
     border: #086A39 solid 1px !important;
     color: #fff;
     background: #086A39 !important;
+}
+
+#index_page .main-button_block a.btn-warning{
+    background:#DC3545 !important;
+    color:#fff !important;
+}
+
+#index_page .main-button_block a.btn-warning:hover{
+    background:#B21B29 !important;
+    color:#fff !important;
 }
 
 /*====================
