@@ -194,6 +194,7 @@ body {
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
+    text-shadow:3px 0px 2px rgba(0,0,0,0.5);
 }
 
 #index_page .main-text h2 {
@@ -201,31 +202,33 @@ body {
 }
 
 #index_page .main-text h1 {
-    font-size: 46.5px;
+    font-size: 47.5px;
 }
 
 #index_page .main-button_block a.btn {
     width: 195px !important;
-    border: #438966 solid 1px !important;
+    border: #000 solid 1px !important;
     color: #fff !important;
-    background: #438966 !important;
+    background: #000 !important;
 }
 
 #index_page .main-button_block a.btn:hover {
 
-    border: #086A39 solid 1px !important;
+    border: #fff solid 1px !important;
     color: #fff;
-    background: #086A39 !important;
+    background: #033265 !important;
 }
 
 #index_page .main-button_block a.btn-warning{
-    background:#DC3545 !important;
+    background:#e0761a !important;
     color:#fff !important;
+    border:#e0761a solid 1px !important;
 }
 
 #index_page .main-button_block a.btn-warning:hover{
-    background:#B21B29 !important;
+    background:#B2590C !important;
     color:#fff !important;
+    border:##B2590C solid 1px !important;
 }
 
 /*====================
@@ -460,7 +463,7 @@ body {
 }
 
 #index_page .heropage:before {
-    background: rgba(51, 61, 96, 0.9);
+    background: rgba(0, 123, 255, 0.9);
 }
 
 .alumni_form {
